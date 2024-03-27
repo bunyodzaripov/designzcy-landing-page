@@ -1,0 +1,293 @@
+/*------------------------- main style------------------------ */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #F9FAFF;
+    font-family: "DM Sans", sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.btn {
+    background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
+    color: #fff;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*------------------------- main style------------------------ */
+
+/* --------------------- HEADER START ------------------ */
+.navbar {
+    height: 50px;
+    padding-top: 51px;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 0 60px;
+}
+
+.nav-btn {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 22px;
+    background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
+    cursor: pointer;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #3D3D3F;
+    font-weight: 500;
+}
+
+.active {
+    color: #F35F2F;
+}
+/* --------------------- HEADER END ------------------ */
+
+/* -----------------------HERO STARAT-------------------- */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 123px;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 72px;
+}
+
+.hero-content h2 {
+    font-size: 72px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    color: #3D3D3F;
+}
+.hero-content p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #3D3D3F;
+    font-family: "Rubik", sans-serif;
+    margin: 40px 0;
+}
+/* -----------------------HERO END-------------------- */
+
+/* ------------------------SERVICE START----------------- */
+.service-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.service-cards {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid #EBEBEBCC;
+    border-radius: 17px;
+    padding: 54px;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-card strong {
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+.service-card span {
+    color: #3D3D3F;
+    font-size: 24px;
+}
+/* ------------------------SERVICE END----------------- */
+
+/* ------------------------PORTFOLIO START----------------- */
+.portfolio {
+    margin: 120px 0;
+}
+
+.portfolio-content  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px 0;
+}
+
+.portfolio-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.portfolio-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.portfolio-card {
+    max-width: 370px;
+    box-shadow: 0px 4px 22px 0px #5F5F5F0D;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.portfolio__card-text {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+/* ------------------------PORTFOLIO END----------------- */
+
+/* ------------------------------OUR TEAM START------------------------------ */
+
+.our-team__content {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.our-team__content h2 {
+    font-size: 40px;
+}
+
+.our-team__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0 36px;
+}
+
+.our-team__card {
+    padding: 15px;
+    box-shadow: 0px 4px 120px 0px #0000000D;
+    border: 1px solid #EEEFF1;
+    border-radius: 10px;
+}
+
+.our-team__card-item {
+    display: flex;
+    flex-direction: column;
+    gap: 17px 5px;
+}
+
+
+.our-team__card-img {
+    border-radius: 13px;
+    width: 243.68px;
+    height: 366px;
+}
+
+/* ------------------------------OUR TEAM END------------------------------ */
+
+
+
+/* ------------------------------Testimonials start------------ */
+.testimonials-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ------------------------------Testimonials end------------ */
+
+/* ----------------------FORM START--------------------- */
+.contact {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    background-color: #E9F1F7;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.container-small {
+    max-width: 744px;
+    margin: 0 auto;
+}
+
+.container-small > h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.form-item > label {
+    display: inline-block;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.form-item {
+    max-width: 354px;
+    width: 100%;
+}
+
+.form-item > input {
+    width: 99%;
+    height: 52px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    text-indent: 18px;
+}
+
+.form-item > input::placeholder {
+    font-size: 14px;
+}
+
+.write {
+    max-width: 100%;
+}
+
+.write > textarea {
+    width: 98%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-indent: 18px;
+    padding-top: 10px;
+    resize: none;
+}
+
+.contact-btn {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-bottom: 30px;
+}
+/* ----------------------FORM END--------------------- */
+
+/* --------------------------FOOTER START-----------------*/
+/* --------------------------FOOTER END-----------------*/
